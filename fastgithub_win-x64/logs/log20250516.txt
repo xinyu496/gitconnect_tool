@@ -1,0 +1,196 @@
+2025-05-16T17:04:05.5831964+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2025-05-16T17:04:05.6502366+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-05-16T17:04:05.6521811+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-05-16T17:04:05.6534428+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-05-16T17:04:05.7089420+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.3，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-05-16T17:04:24.7239013+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+js.monitor.azure.com:443->[13.107.246.73, 2620:1ec:bdf::73]
+
+2025-05-16T17:04:26.8465830+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az667904.vo.msecnd.net:443->[23.205.151.51, 23.205.151.62, 2600:140b:1c00:10::17cc:8b96]
+
+2025-05-16T17:04:28.0604611+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+raw.githubusercontent.com:443->[2606:50c0:8000::154, 2606:50c0:8003::154, 2606:50c0:8001::154]
+
+2025-05-16T17:04:29.6780614+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-05-16T17:04:31.0328811+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.4]
+
+2025-05-16T17:04:32.1254504+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.253.43, 13.107.246.73, 2620:1ec:bdf::73]
+
+2025-05-16T17:04:33.3492082+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.137, 20.190.148.162, 40.126.16.166]
+
+2025-05-16T17:04:35.0209747+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+westus2-0.in.applicationinsights.azure.com:443->[20.9.155.148, 20.9.155.150]
+
+2025-05-16T17:04:36.3034941+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[13.104.158.179, 40.90.130.197, 13.105.74.50]
+
+2025-05-16T17:04:38.0161161+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.253.43, 13.107.246.73, 2620:1ec:bdf::73]
+
+2025-05-16T17:04:39.2317256+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.50.88.233, 20.50.88.235]
+
+2025-05-16T17:04:40.3054019+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+objects.githubusercontent.com:443->[185.199.110.133, 185.199.111.133, 185.199.109.133]
+
+2025-05-16T17:04:41.3134648+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+marketplace.visualstudio.com:443->[13.107.42.18, 2620:1ec:a92::175]
+
+2025-05-16T17:04:51.4468823+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.nuget.org:443->[2620:1ec:29:1::53, 23.101.10.141, 2.16.170.211]
+
+2025-05-16T17:04:52.6852234+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 140.82.112.6]
+
+2025-05-16T17:04:53.8248343+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+aadcdn.msauth.net:443->[13.107.253.45, 13.107.246.73, 2620:1ec:bdf::73]
+
+2025-05-16T17:04:54.9373500+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.githubassets.com:443->[185.199.110.154, 185.199.111.154, 185.199.108.154]
+
+2025-05-16T17:04:56.5105370+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22]
+
+2025-05-16T17:05:05.7184422+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.21]
+
+2025-05-16T17:05:07.0429665+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.113.25, 140.82.112.26, 140.82.113.26]
+
+2025-05-16T17:05:08.4163380+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.144, 20.190.163.19, 20.190.163.21]
+
+2025-05-16T17:05:09.5346196+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[13.107.246.52, 13.107.253.39, 13.107.246.73]
+
+2025-05-16T17:05:10.5871116+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+avatars.githubusercontent.com:443->[2606:50c0:8000::154, 2606:50c0:8003::154, 2606:50c0:8001::154]
+
+2025-05-16T17:05:20.7643412+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+az700632.vo.msecnd.net:443->[23.205.151.36, 23.205.151.44, 2600:140b:a00:e::b81d:8cdf]
+
+2025-05-16T17:05:22.1516903+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.114.21, 140.82.112.22]
+
+2025-05-16T17:05:23.1170348+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+js.monitor.azure.com:443->[13.107.253.67, 13.107.246.73, 2620:1ec:bdf::40]
+
+2025-05-16T17:05:23.7536293+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.21, 140.82.112.21, 140.82.113.22]
+
+2025-05-16T17:05:27.3815431+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[40.126.35.18, 20.190.163.18, 40.126.35.144]
+
+2025-05-16T17:05:29.3302363+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.112.25, 140.82.113.25, 140.82.112.26]
+
+2025-05-16T17:05:43.5113075+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.nuget.org:443->[13.107.246.44, 2600:140b:a00:a::b81b:b9de, 2600:140b:a00:a::b81b:b9c7]
+
+2025-05-16T17:06:15.9307026+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.112.25, 140.82.113.25]
+
+2025-05-16T17:06:28.5820401+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[13.104.158.179, 40.90.130.197, 40.90.133.102]
+
+2025-05-16T17:06:31.1583591+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.121.3, 140.82.121.4]
+
+2025-05-16T17:06:32.3245278+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[13.107.253.44, 13.107.253.43, 13.107.246.73]
+
+2025-05-16T17:06:38.7684016+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[13.107.246.64, 13.107.253.43, 13.107.246.73]
+
+2025-05-16T17:06:39.5068245+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+dc.services.visualstudio.com:443->[20.213.196.212, 20.50.88.233, 20.50.88.234]
+
+2025-05-16T17:06:44.2798616+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.nuget.org:443->[13.107.246.52, 13.107.246.44, 2600:140b:a00:a::b81b:b9de]
+
+2025-05-16T17:06:46.7264530+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[40.126.35.87, 20.190.163.18, 40.126.35.86]
+
+2025-05-16T17:06:54.1231259+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168, 20.27.177.116, 140.82.112.6]
+
+2025-05-16T17:07:04.2056178+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.114.22, 140.82.114.21, 140.82.112.21]
+
+2025-05-16T17:07:05.7722439+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+storage.live.com:443->[20.135.6.7, 13.104.158.179, 40.90.130.197]
+
+2025-05-16T17:07:06.2009315+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+ocws.officeapps.live.com->127.0.0.1
+
+2025-05-16T17:07:06.2023900+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+ocws.officeapps.live.com->::1
+
+2025-05-16T17:07:07.9092166+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+alive.github.com:443->[140.82.114.26, 140.82.114.25, 140.82.112.25]
+

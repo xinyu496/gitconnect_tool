@@ -1,0 +1,110 @@
+[
+  {
+    "host": "update.code.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "education.github.com",
+    "port": 443
+  },
+  {
+    "host": "camo.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "api.github.com",
+    "port": 443
+  },
+  {
+    "host": "edge-consumer-static.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 443
+  },
+  {
+    "host": "code.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "edgeassetservice.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "login.microsoftonline.com",
+    "port": 443
+  },
+  {
+    "host": "collector.github.com",
+    "port": 443
+  },
+  {
+    "host": "xpaywalletcdn-prod.azureedge.net",
+    "port": 443
+  },
+  {
+    "host": "login.live.com",
+    "port": 443
+  },
+  {
+    "host": "js.monitor.azure.com",
+    "port": 443
+  },
+  {
+    "host": "alive.github.com",
+    "port": 443
+  },
+  {
+    "host": "dc.services.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "raw.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "az700632.vo.msecnd.net",
+    "port": 443
+  },
+  {
+    "host": "avatars.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "api.nuget.org",
+    "port": 443
+  },
+  {
+    "host": "objects.githubusercontent.com",
+    "port": 443
+  },
+  {
+    "host": "az667904.vo.msecnd.net",
+    "port": 443
+  },
+  {
+    "host": "marketplace.visualstudio.com",
+    "port": 443
+  },
+  {
+    "host": "aadcdn.msauth.net",
+    "port": 443
+  },
+  {
+    "host": "github.com",
+    "port": 22
+  },
+  {
+    "host": "github.githubassets.com",
+    "port": 443
+  },
+  {
+    "host": "storage.live.com",
+    "port": 443
+  },
+  {
+    "host": "westus2-0.in.applicationinsights.azure.com",
+    "port": 443
+  }
+]

@@ -1,0 +1,1378 @@
+2025-08-24T21:13:40.5590134+08:00 [INF]
+FastGithub.HttpServer
+已监听https://localhost:443，https反向代理服务启动完成
+
+2025-08-24T21:13:40.6274264+08:00 [INF]
+FastGithub.HttpServer
+已监听http://localhost:80，http反向代理服务启动完成
+
+2025-08-24T21:13:40.6374331+08:00 [INF]
+FastGithub.HttpServer
+已监听ssh://localhost:22，github的ssh反向代理服务启动完成
+
+2025-08-24T21:13:40.6385456+08:00 [INF]
+FastGithub.HttpServer
+已监听git://localhost:9418，github的git反向代理服务启动完成
+
+2025-08-24T21:13:40.7062589+08:00 [INF]
+FastGithub.AppHostedService
+FastGithub启动完成，当前版本为v2.1.3，访问 https://github.com/dotnetcore/fastgithub 关注新版本
+
+2025-08-24T21:13:41.0045747+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+raw.githubusercontent.com->127.0.0.1
+
+2025-08-24T21:13:50.9234891+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md responded 200 in 9394.5906 ms
+
+2025-08-24T21:13:51.0384142+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://raw.githubusercontent.com/DNSCrypt/dnscrypt-resolvers/master/v3/public-resolvers.md.minisig responded 200 in 96.0431 ms
+
+2025-08-24T21:13:54.6223670+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+edgeassetservice.azureedge.net->127.0.0.1
+
+2025-08-24T21:13:54.6271707+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+edgeassetservice.azureedge.net->::1
+
+2025-08-24T21:13:54.8774217+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->127.0.0.1
+
+2025-08-24T21:13:54.8810805+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+login.live.com->::1
+
+2025-08-24T21:13:57.6805488+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://login.live.com/RST2.srf responded 200 in 2500.3849 ms
+
+2025-08-24T21:13:59.0882949+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+storage.live.com->127.0.0.1
+
+2025-08-24T21:13:59.0902543+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+storage.live.com->::1
+
+2025-08-24T21:13:59.6445258+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+update.code.visualstudio.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-08-24T21:13:59.8994579+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://storage.live.com/users/0x969e46f966541ae1/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 502 in 226.0464 ms
+System.Threading.Tasks.TaskCanceledException: A task was canceled.
+
+
+2025-08-24T21:14:00.2801498+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_edrop_maximal_dark.png/1.1.18/asset responded 200 in 5138.884 ms
+
+2025-08-24T21:14:00.2801475+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_copilot_rainbow.png/1.3.23/asset responded 200 in 5139.0494 ms
+
+2025-08-24T21:14:00.2802012+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_outlook_dark.png/1.12.17/asset responded 200 in 5143.2166 ms
+
+2025-08-24T21:14:00.2802388+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_shopping_maximal_dark.png/1.5.7/asset responded 200 in 5139.9479 ms
+
+2025-08-24T21:14:00.2940759+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_games_maximal_dark.png/1.7.18/asset responded 200 in 5152.6333 ms
+
+2025-08-24T21:14:00.2941827+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_M365_dark.png/1.7.43/asset responded 200 in 5155.6391 ms
+
+2025-08-24T21:14:00.3368819+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+update.code.visualstudio.com:443->[2620:1ec:bdf::73, 13.107.246.73]
+
+2025-08-24T21:14:00.3439050+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://edgeassetservice.azureedge.net/assets/edge_hub_apps_toolbox_maximal_dark.png/1.5.18/asset responded 200 in 5202.2821 ms
+
+2025-08-24T21:14:01.5166040+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://storage.live.com/users/0x969e46f966541ae1/myprofile/expressionprofile/profilephoto:UserTileStatic/p responded 302 in 1635.7987 ms
+
+2025-08-24T21:14:01.7372600+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+OPTIONS https://login.live.com/login.srf responded 502 in 201.8365 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-08-24T21:14:01.9056248+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-08-24T21:14:01.9077946+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->::1
+
+2025-08-24T21:14:01.9095506+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->127.0.0.1
+
+2025-08-24T21:14:01.9115009+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.githubassets.com->::1
+
+2025-08-24T21:14:03.0503848+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://login.live.com/login.srf responded 200 in 1314.1463 ms
+
+2025-08-24T21:14:04.0253695+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->127.0.0.1
+
+2025-08-24T21:14:04.0282160+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+avatars.githubusercontent.com->::1
+
+2025-08-24T21:14:04.0303033+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->127.0.0.1
+
+2025-08-24T21:14:04.0322799+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+user-images.githubusercontent.com->::1
+
+2025-08-24T21:14:04.0455232+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->127.0.0.1
+
+2025-08-24T21:14:04.0479114+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github-cloud.s3.amazonaws.com->::1
+
+2025-08-24T21:14:04.5572167+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/ responded 200 in 2316.0267 ms
+
+2025-08-24T21:14:05.3845282+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-665e70-a5590c456d33.js responded 200 in 1366.2678 ms
+
+2025-08-24T21:14:05.3845288+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_updatable-content_updatable-content_ts-a743e72edcf2.js responded 200 in 1365.4479 ms
+
+2025-08-24T21:14:05.3853055+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_braintree_browser-detection_dist_browser-detection_js-node_modules_githu-bb80ec-4e90f1d1076c.js responded 200 in 1366.3924 ms
+
+2025-08-24T21:14:05.3909173+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/environment-472a04f0328f.js responded 200 in 1374.2816 ms
+
+2025-08-24T21:14:05.3975385+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_oddbird_popover-polyfill_dist_popover-fn_js-468bf7cab607.js responded 200 in 1382.7652 ms
+
+2025-08-24T21:14:05.3975520+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/light-6448649c7147.css responded 200 in 1385.5342 ms
+
+2025-08-24T21:14:05.4065082+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_stacktrace-parser_dist_s-1d3d52-25523f4ee061.js responded 200 in 1389.925 ms
+
+2025-08-24T21:14:05.4065535+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_markdown-toolbar-element_dist_index_js-d41270eb61be.js responded 200 in 1388.3181 ms
+
+2025-08-24T21:14:05.4065920+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_lit-html_lit-html_js-06c8637a6071.js responded 200 in 1387.7168 ms
+
+2025-08-24T21:14:05.4184257+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_relative-time-element_dist_index_js-c98257dc79a7.js responded 200 in 1400.2911 ms
+
+2025-08-24T21:14:05.4681332+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_auto-complete-element_dist_index_js-node_modules_github_catalyst_-0d7d60-206bd7d02d67.js responded 200 in 1449.8695 ms
+
+2025-08-24T21:14:05.4682934+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_primer_behaviors_dist_esm_index_mjs-7e8c9c5d642d.js responded 200 in 1450.1203 ms
+
+2025-08-24T21:14:05.4687962+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_selector-observer_dist_index_esm_js-7e4d99c9171d.js responded 200 in 1450.6599 ms
+
+2025-08-24T21:14:05.4687962+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_failbot_failbot_ts-58d1ecabdd39.js responded 200 in 1452.1784 ms
+
+2025-08-24T21:14:05.4799589+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-elements-a778efe8f7e7.js responded 200 in 1461.5305 ms
+
+2025-08-24T21:14:05.4825202+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_text-expander-element_dist_index_js-754f5b5e9e7e.js responded 200 in 1464.3399 ms
+
+2025-08-24T21:14:05.4825411+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/element-registry-47b46ea6a180.js responded 200 in 1464.0694 ms
+
+2025-08-24T21:14:05.4828747+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_morphdom_dist_morphdom-esm_js-node_modules_swc_helpers_esm__define_property_js-5c587dccb470.js responded 200 in 1463.9019 ms
+
+2025-08-24T21:14:05.4918410+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/wp-runtime-63dd509a71d3.js responded 200 in 1477.0166 ms
+
+2025-08-24T21:14:05.4919049+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_turbo_dist_turbo_es2017-esm_js-8eb9b2209bcd.js responded 200 in 1472.9271 ms
+
+2025-08-24T21:14:05.4926072+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_quote-selection_dist_index_js-node_modules_github_session-resume_-d3ee0b-9bd182333410.js responded 200 in 1473.5776 ms
+
+2025-08-24T21:14:05.5008366+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_primer_view-co-777ce2-97c18f2decf8.js responded 200 in 1482.526 ms
+
+2025-08-24T21:14:05.5061351+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_sticky-scroll-into-view_ts-packages_onfocus_onfocus_ts-b626d34fa53c.js responded 200 in 1487.0703 ms
+
+2025-08-24T21:14:05.5081198+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_template-parts_lib_index_js-node_modules_tslib_tslib_es6_mjs-3389456ad623.js responded 200 in 1485.2751 ms
+
+2025-08-24T21:14:05.5095835+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_lodash-es__Stack_js-node_modules_lodash-es__Uint8Array_js-node_modules_l-4faaa6-95511fe13c4b.js responded 200 in 1486.8427 ms
+
+2025-08-24T21:14:05.5175368+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-893f9f-cd5d89ebdb50.js responded 200 in 1498.5154 ms
+
+2025-08-24T21:14:05.5215819+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_catalyst_lib_index_js-ef6d0f-8dd2b9b9879e.js responded 200 in 1502.3623 ms
+
+2025-08-24T21:14:05.5221365+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/notifications-global-e0009afb39c7.js responded 200 in 1502.8742 ms
+
+2025-08-24T21:14:05.5223427+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_behaviors_task-list_ts-app_assets_modules_github_throttled-input_ts-047775-251a6ef52573.js responded 200 in 1503.2295 ms
+
+2025-08-24T21:14:05.5263034+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_behaviors_commenting_edit_ts-app_assets_modules_github_behaviors_ht-83c235-6bc7a8849328.js responded 200 in 1507.0174 ms
+
+2025-08-24T21:14:05.5293341+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/discussions-c4171de36874.css responded 200 in 1504.352 ms
+
+2025-08-24T21:14:05.5467321+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_lodash-es__baseIteratee_js-d4476948436d.js responded 200 in 1523.9321 ms
+
+2025-08-24T21:14:05.5468076+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/primer-primitives-dc7ca6859caf.css responded 200 in 1522.8931 ms
+
+2025-08-24T21:14:05.5662035+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_behaviors_ajax-error_ts-app_assets_modules_github_behaviors_include-57ebdf-79a296a7e15b.js responded 200 in 1547.1293 ms
+
+2025-08-24T21:14:05.5662035+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_delegated-events_dist_index_js-node_modules_github_hotkey_dist_index_js--325db5-c15de8d07442.js responded 200 in 1543.2203 ms
+
+2025-08-24T21:14:05.5664435+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dashboard-9b58e2f8bff7.css responded 200 in 1541.5506 ms
+
+2025-08-24T21:14:05.5666247+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/keyboard-shortcuts-dialog.2de9c7d6456a311fce49.module.css responded 200 in 1541.3797 ms
+
+2025-08-24T21:14:05.5668151+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_github_catalyst_lib_index_-280e4f-4e779a97fc6f.js responded 200 in 1544.0484 ms
+
+2025-08-24T21:14:05.5876024+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dark-d17b946fc2c5.css responded 200 in 1563.6427 ms
+
+2025-08-24T21:14:05.5891821+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/dashboard-0fc30f91254b.js responded 200 in 1566.1412 ms
+
+2025-08-24T21:14:05.6239863+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/primer-react.0c0051664a94f0e136ff.module.css responded 200 in 1598.7326 ms
+
+2025-08-24T21:14:05.6351479+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/github-433fe01d68e9.css responded 200 in 1610.1995 ms
+
+2025-08-24T21:14:05.6552459+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/mona-loading-dark-static-8b35171e5d6c.svg responded 200 in 1390.1921 ms
+
+2025-08-24T21:14:05.6635076+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/primer-f96b923db733.css responded 200 in 1638.8443 ms
+
+2025-08-24T21:14:05.6676945+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-ba4a574c9cf9.css responded 200 in 1643.0026 ms
+
+2025-08-24T21:14:05.6676945+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/mona-loading-dark-7701a7b97370.gif responded 200 in 1402.6777 ms
+
+2025-08-24T21:14:05.7640251+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/behaviors-57e015aa57f5.js responded 200 in 1744.793 ms
+
+2025-08-24T21:14:05.8891538+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_dashboard_loading-context-element_ts-f5b5f7d4a853.js responded 200 in 111.3641 ms
+
+2025-08-24T21:14:05.8972417+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_memoize_dist_esm_index_js-node_modules_primer_live-region-element-705f59-bd984b0cac2a.js responded 200 in 103.7608 ms
+
+2025-08-24T21:14:05.8985417+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hydro-analytics-c-1c4dd4-62a305d7bc30.js responded 200 in 104.953 ms
+
+2025-08-24T21:14:05.9018484+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_scroll-anchoring_dist_sc-4b13be-2bac3023f7e1.js responded 200 in 114.004 ms
+
+2025-08-24T21:14:05.9088148+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_primer_experimental_toggle-switch-element_ts-ab4e93928442.js responded 200 in 115.3194 ms
+
+2025-08-24T21:14:05.9100459+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_notifications_notification-shelf-watcher-element_ts-09ae3dc700e4.js responded 200 in 122.2196 ms
+
+2025-08-24T21:14:05.9100676+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_primer_experimental_select-panel-element_ts-31622d385990.js responded 200 in 116.5851 ms
+
+2025-08-24T21:14:05.9106848+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_combobox-nav_dist_index_js-node_modules_github_jtml_lib_index_js-b233de43858f.js responded 200 in 117.0644 ms
+
+2025-08-24T21:14:05.9137245+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_query-builder-element_query-builder-element_ts-90f5f83e2407.js responded 200 in 120.1573 ms
+
+2025-08-24T21:14:05.9458439+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_jtml_lib_ind-951e88-037650cae46b.js responded 200 in 148.2081 ms
+
+2025-08-24T21:14:05.9209057+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_cookie-consent-link-element_element-entry_ts-packages_promise-with-resolvers-polyfil-ca0d1b-bfd0a774028c.js responded 200 in 123.0758 ms
+
+2025-08-24T21:14:05.9298145+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_context-region-element_element-entry_ts-b44feee3fac6.js responded 200 in 132.1471 ms
+
+2025-08-24T21:14:05.9334623+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_hydro-analyt-6639cd-fe11e3ac5786.js responded 200 in 135.5911 ms
+
+2025-08-24T21:14:05.9335272+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_site_header_deferred-side-panel-element_ts-2f1bd27cb096.js responded 200 in 135.9431 ms
+
+2025-08-24T21:14:05.9351619+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_filter-sort_filter-sort_ts-packages_fuzzy-filter_fuzzy-filter_ts-packages_hydro-anal-0ce001-bb82c164901e.js responded 200 in 137.6208 ms
+
+2025-08-24T21:14:05.9381457+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_site_header_notification-indicator-element_ts-5d3b312c86c0.js responded 200 in 140.5433 ms
+
+2025-08-24T21:14:05.9164422+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_search_custom-scopes-element_ts-bf114e60345d.js responded 200 in 122.9264 ms
+
+2025-08-24T21:14:05.9507246+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_utils_copilot-chat-helpers_ts-bc96156bbd1d.js responded 200 in 152.8792 ms
+
+2025-08-24T21:14:05.9607184+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_cookie-consent_cookie-consent_ts-8771031ae173.js responded 200 in 162.9578 ms
+
+2025-08-24T21:14:05.9607905+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_paths_index_ts-9f1a095bf4bd.js responded 200 in 167.2856 ms
+
+2025-08-24T21:14:05.9614328+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_react-partial-anchor-element_element-entry_ts-b53ddb47c42d.js responded 200 in 162.6901 ms
+
+2025-08-24T21:14:05.9687372+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-keyboard-shortcuts-dialog.2de9c7d6456a311fce49.module.css responded 200 in 170.0483 ms
+
+2025-08-24T21:14:05.9688162+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_hydro-analytics_hydro-analytics_ts-packages_query-builder-element_element-entry_ts-95b78ef12de4.js responded 200 in 170.0543 ms
+
+2025-08-24T21:14:06.0127469+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_site-header-logged-in-user-menu-element_element-entry_ts-7236ab21b01a.js responded 200 in 213.9801 ms
+
+2025-08-24T21:14:06.0552938+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_ghcc-consent-element_element-entry_ts-packages_promise-with-resolvers-polyfill_promi-6824cd-d605acfadc04.js responded 200 in 256.5982 ms
+
+2025-08-24T21:14:06.0668134+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_webauthn-get-element_element-entry_ts-5ad877843728.js responded 200 in 239.1616 ms
+
+2025-08-24T21:14:06.0668689+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_copilot-dashboard-entrypoint-element_element-entry_ts-packages_history_history_ts-8e417848e1ad.js responded 200 in 269.0369 ms
+
+2025-08-24T21:14:06.0669108+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hydro-analytics-c-b1612f-0d2cb8546fcc.js responded 200 in 268.2146 ms
+
+2025-08-24T21:14:06.0669389+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_primer_live-region-element_dist_esm_index_js-node_modules_swc_helpers_es-b6e71e-5b3ad5c61499.js responded 200 in 268.0347 ms
+
+2025-08-24T21:14:06.0669581+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_swc_helpers_esm__define_property_js-node_modules_tanstack_query-core_bui-b9aec9-5fc124521301.js responded 200 in 268.0517 ms
+
+2025-08-24T21:14:06.0670555+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_hydro-analytics_hydro-analytics_ts-p-9eb617-be362a30fe49.js responded 200 in 268.0442 ms
+
+2025-08-24T21:14:06.0744223+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_ui-commands_ui-commands_ts-d40077cb1466.js responded 200 in 275.4101 ms
+
+2025-08-24T21:14:06.0817098+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_search_qbsearch-input-element_ts-bb9dd89a2f3a.js responded 200 in 284.1296 ms
+
+2025-08-24T21:14:06.0942687+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_emotion_is-prop-valid_dist_emotion-is-prop-valid_esm_js-node_modules_emo-928884-c9018ca8bd3f.js responded 200 in 295.3252 ms
+
+2025-08-24T21:14:06.1507696+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/react-lib-17ccbc80f53b.js responded 200 in 352.8974 ms
+
+2025-08-24T21:14:06.1553308+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-markdown-rendering-ddd978d4a7c0.css responded 200 in 167.8187 ms
+
+2025-08-24T21:14:06.1579053+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_tanstack_react-query_build_modern_useQuery_js-9bd41cbc4f50.js responded 200 in 170.0366 ms
+
+2025-08-24T21:14:06.1643836+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_focus-visible_dist_focus-visible_js-node_modules_github_hotkey_dist_inde-336f14-44fbd8c36b37.js responded 200 in 176.4027 ms
+
+2025-08-24T21:14:06.1774542+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_accname_dist_access-6ea9b0-201e3c77621c.js responded 200 in 189.0478 ms
+
+2025-08-24T21:14:06.1912391+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_date-fns_getDaysInMonth_mjs-node_modules_date-fns_isAfter_mjs-node_modul-49f526-00fbebc8e440.js responded 200 in 188.5733 ms
+
+2025-08-24T21:14:06.1913149+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-global-copilot-menu.0dae964c36d74ed2b53e.module.css responded 200 in 185.5988 ms
+
+2025-08-24T21:14:06.2323990+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_list-view_src_hooks_use-next-header-tag_ts-packages_list-view_src_ListItem_ListItem_-055669-a51bfc2f2d41.js responded 200 in 227.0045 ms
+
+2025-08-24T21:14:06.2535359+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-copilot-menu.0dae964c36d74ed2b53e.module.css responded 200 in 263.0353 ms
+
+2025-08-24T21:14:06.2548830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_tanstack_react-virtual_dist_esm_index_js-4f7c027617ef.js responded 200 in 252.1589 ms
+
+2025-08-24T21:14:06.2714147+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-create-menu.091342d12267a9316908.module.css responded 200 in 280.3083 ms
+
+2025-08-24T21:14:06.2739062+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-user-nav-drawer.d4f749af87a00c38a832.module.css responded 200 in 281.2597 ms
+
+2025-08-24T21:14:06.2777455+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_ref-selector_RefSelector_tsx-745d2b3f1f3d.js responded 200 in 272.241 ms
+
+2025-08-24T21:14:06.2785897+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_date-fns_addWeeks_mjs-node_modules_date-fns_addYears_mjs-node_modules_da-827f4f-6af178f555c7.js responded 200 in 275.9299 ms
+
+2025-08-24T21:14:06.2830047+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_drag-and-drop_drag-and-drop_ts-packages_hydro-analytics_hydro-analytics_ts-6d373d06faa7.js responded 200 in 278.0982 ms
+
+2025-08-24T21:14:06.3050423+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_emoji-regex_index_js-node_modules_fzy_js_index_js-node_modules_tanstack_-0edaaf-37196164f329.js responded 200 in 316.2846 ms
+
+2025-08-24T21:14:06.3051020+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-chat-8befb80346bf.js responded 200 in 314.7916 ms
+
+2025-08-24T21:14:06.3059389+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_ModelPicker_tsx-5cd223bdd24a.js responded 200 in 316.0533 ms
+
+2025-08-24T21:14:06.3162216+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_promise-with-resolvers-polyfill_prom-32d1c7-967363e07ef9.js responded 200 in 308.7596 ms
+
+2025-08-24T21:14:06.3164479+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-global-create-menu.091342d12267a9316908.module.css responded 200 in 307.7606 ms
+
+2025-08-24T21:14:06.3191863+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_dompurify_dist_purify_es_mjs-0294cfa498e7.js responded 200 in 316.7757 ms
+
+2025-08-24T21:14:06.3208621+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-copilot-chat.64b3dd860a09e427455c.module.css responded 200 in 333.3386 ms
+
+2025-08-24T21:14:06.3233381+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/my_top_repositories responded 200 in 524.2647 ms
+
+2025-08-24T21:14:06.3303050+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_date-picker_components_DatePicker_tsx-5b5fe0292542.js responded 200 in 327.5509 ms
+
+2025-08-24T21:14:06.3316754+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_date-fns_format_mjs-f7e5dd4e3ebd.js responded 200 in 329.296 ms
+
+2025-08-24T21:14:06.3317288+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_item-picker_components_RepositoryPicker_tsx-37850f5d9bef.js responded 200 in 342.5593 ms
+
+2025-08-24T21:14:06.3373702+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_global-copilot-menu_entry_ts-package-04fde0-2f88fba3088e.js responded 200 in 331.5753 ms
+
+2025-08-24T21:14:06.3398357+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_ChatInput_tsx-packages_global-agents-menu_GlobalAgentsMenu_t-f1d2b2.75f96ad9940a3158e939.module.css responded 200 in 349.377 ms
+
+2025-08-24T21:14:06.3559572+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-global-user-nav-drawer.d4f749af87a00c38a832.module.css responded 200 in 345.6292 ms
+
+2025-08-24T21:14:06.3609138+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_dnd-kit_modifiers_dist_modifiers_esm_js-node_modules_dnd-kit_sortable_di-72228e-99b95b9fca56.js responded 200 in 358.2383 ms
+
+2025-08-24T21:14:06.3649299+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-lazy-react-partial-global-create-menu-73c39bd858a3.js responded 200 in 355.8676 ms
+
+2025-08-24T21:14:06.3870689+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/react-core-1c66b34c4e5a.js responded 200 in 588.1854 ms
+
+2025-08-24T21:14:06.3952457+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_consent-banner_dist_consent-banner_js-b4d32b5aded2.js responded 200 in 331.9104 ms
+
+2025-08-24T21:14:06.4088319+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-markdown_MarkdownRenderer_tsx-8d3f235cdffe.js responded 200 in 420.1211 ms
+
+2025-08-24T21:14:06.4123383+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_global-user-nav-drawer_entry_ts-70a0935f1169.js responded 200 in 401.7735 ms
+
+2025-08-24T21:14:06.4194900+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_utils_CopilotChatContext_tsx-packages_safe-html_VerifiedHTML_tsx-770fa39dc57b.js responded 200 in 430.7493 ms
+
+2025-08-24T21:14:06.4267647+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_CopilotIconAnimation_tsx-4f0dd006fa0a.js responded 200 in 436.4658 ms
+
+2025-08-24T21:14:06.4496345+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/octicons-react-8a33e197330e.js responded 200 in 650.6988 ms
+
+2025-08-24T21:14:06.5317077+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/primer-react-2dcf8244fbdf.js responded 200 in 732.8934 ms
+
+2025-08-24T21:14:06.5595243+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_react-relay_index_js-065619a68bd6.js responded 200 in 571.5553 ms
+
+2025-08-24T21:14:06.6143349+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_ChatInput_tsx-packages_global-agents-menu_GlobalAgentsMenu_t-f1d2b2-7dfe86ce7dfa.js responded 200 in 608.5976 ms
+
+2025-08-24T21:14:06.6418068+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 200 in 842.7383 ms
+
+2025-08-24T21:14:06.6649649+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+education.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-08-24T21:14:06.7852568+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/assets-cdn/worker/socket-worker-7db934acff24.js responded 200 in 967.7084 ms
+
+2025-08-24T21:14:06.8176047+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/changelog responded 200 in 1018.4442 ms
+
+2025-08-24T21:14:06.8184553+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/recent-activity responded 200 in 1019.3647 ms
+
+2025-08-24T21:14:06.8587868+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/dashboard/my_top_repositories responded 200 in 1059.6414 ms
+
+2025-08-24T21:14:06.8609008+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/conduit/filter responded 200 in 1029.1529 ms
+
+2025-08-24T21:14:06.8682129+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 200 in 893.3712 ms
+
+2025-08-24T21:14:06.9143943+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/socket-worker-7db934acff24.js responded 200 in 120.4325 ms
+
+2025-08-24T21:14:06.9251826+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->127.0.0.1
+
+2025-08-24T21:14:06.9274389+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+alive.github.com->::1
+
+2025-08-24T21:14:06.9853465+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat responded 200 in 992.7295 ms
+
+2025-08-24T21:14:07.0121524+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_hastscript_lib_index_js-node_modules_lowlight_lib_all_js-node_modules_re-277d5e-388890b7d2ce.js responded 200 in 1023.7969 ms
+
+2025-08-24T21:14:07.0415746+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/conduit/for_you_feed responded 200 in 1242.4273 ms
+
+2025-08-24T21:14:07.3181540+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+education.github.com:443->[140.82.112.22, 140.82.113.21]
+
+2025-08-24T21:14:07.3616102+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-copilot-chat-599e55f47508.js responded 200 in 1371.2603 ms
+
+2025-08-24T21:14:08.5220936+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->127.0.0.1
+
+2025-08-24T21:14:08.5243367+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+api.github.com->::1
+
+2025-08-24T21:14:09.9054274+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 970.9077 ms
+
+2025-08-24T21:14:09.9054274+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 970.9727 ms
+
+2025-08-24T21:14:10.4546413+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/203430151 responded 200 in 5265.7068 ms
+
+2025-08-24T21:14:10.4739177+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/203430151 responded 200 in 4124.8945 ms
+
+2025-08-24T21:14:10.4912081+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/138696776 responded 200 in 3382.6088 ms
+
+2025-08-24T21:14:10.4916817+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/165476306 responded 200 in 3383.0761 ms
+
+2025-08-24T21:14:10.5045783+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->127.0.0.1
+
+2025-08-24T21:14:10.5067323+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+collector.github.com->::1
+
+2025-08-24T21:14:10.8444867+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/manifest.json responded 200 in 333.797 ms
+
+2025-08-24T21:14:10.9593766+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 439.9064 ms
+
+2025-08-24T21:14:10.9964078+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/apple-touch-icon-144x144-b882e354c005.png responded 200 in 143.934 ms
+
+2025-08-24T21:14:12.1549993+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1273.8595 ms
+
+2025-08-24T21:14:12.1572123+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 1276.1338 ms
+
+2025-08-24T21:14:17.4971920+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+camo.githubusercontent.com:443->[185.199.110.133]
+
+2025-08-24T21:14:23.4973724+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+api.github.com:443->[20.205.243.168]
+
+2025-08-24T21:14:27.0061377+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+edge-consumer-static.azureedge.net:443->[2620:1ec:bdf::73, 2620:1ec:bdf::50, 13.107.246.50]
+
+2025-08-24T21:14:28.9566556+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-08-24T21:14:29.6853816+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+github.com:443->[20.205.243.166, 140.82.113.3]
+
+2025-08-24T21:14:33.3344326+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+code.visualstudio.com:443->[2620:1ec:bdf::64, 2620:1ec:bdf::73, 13.107.246.41]
+
+2025-08-24T21:14:38.9839754+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 878.0547 ms
+
+2025-08-24T21:14:39.0302777+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/new responded 200 in 910.4302 ms
+
+2025-08-24T21:14:39.0664848+08:00 [WRN]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://alive.github.com/_sockets/u/203430151/ws responded 101 in 31291.0511 ms
+System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+System.IO.IOException: Unable to read data from the transport connection: 由于线程退出或应用程序请求，已中止 I/O 操作。.
+System.Net.Sockets.SocketException: 由于线程退出或应用程序请求，已中止 I/O 操作。
+
+
+2025-08-24T21:14:39.5091825+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_catalyst_lib_index_js-node_modules_swc_helpers_esm__class_static_-c098f1-6e94aab58d07.js responded 200 in 457.2017 ms
+
+2025-08-24T21:14:39.5129837+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repository-783aa9056ed4.css responded 200 in 464.3909 ms
+
+2025-08-24T21:14:39.5141955+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_filter-input-element_dist_index_js-node_modules_github_remote-inp-3eebbd-3f321794ae54.js responded 200 in 464.3232 ms
+
+2025-08-24T21:14:39.5187830+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_app-uuid_app-uuid_ts-packages_custom-properties-editing_components_validate_ts-packa-9f1559-ec7881c70c31.js responded 200 in 466.5033 ms
+
+2025-08-24T21:14:39.5245282+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_delegated-events_di-e161aa-34194327b80d.js responded 200 in 473.0791 ms
+
+2025-08-24T21:14:39.5252156+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/app_assets_modules_github_ref-selector_ts-60e0b5cd3550.js responded 200 in 473.4544 ms
+
+2025-08-24T21:14:39.5261575+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_file-attachment-element_dist_index_js-node_modules_github_remote--abdaf7-e83eee3cdca9.js responded 200 in 474.3019 ms
+
+2025-08-24T21:14:39.5264101+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_fetch-headers_fetch-headers_ts-packa-03d9e4-fc6e85af8c19.js responded 200 in 474.3684 ms
+
+2025-08-24T21:14:39.5495047+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repositories-21b35d5989f1.js responded 200 in 497.6528 ms
+
+2025-08-24T21:14:39.5517009+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_virtualized-list_es_inde-8b3def-1cdf12145bde.js responded 200 in 487.9386 ms
+
+2025-08-24T21:14:39.5857650+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repo-creation.a2a8d95cdf9fc7c88c3e.module.css responded 200 in 521.9983 ms
+
+2025-08-24T21:14:39.6045327+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 570.099 ms
+
+2025-08-24T21:14:39.6244913+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repo-creation-8b5a7c59a644.js responded 200 in 572.0134 ms
+
+2025-08-24T21:14:39.7668953+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/assets-cdn/worker/socket-worker-7db934acff24.js responded 200 in 117.3197 ms
+
+2025-08-24T21:14:39.7712950+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_memoize_dist_esm_index_js-node_modules_primer_live-region-element-705f59-bd984b0cac2a.js responded 200 in 97.6596 ms
+
+2025-08-24T21:14:39.7742267+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_scroll-anchoring_dist_sc-4b13be-2bac3023f7e1.js responded 200 in 101.9702 ms
+
+2025-08-24T21:14:39.7743299+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_site_header_deferred-side-panel-element_ts-2f1bd27cb096.js responded 200 in 99.4348 ms
+
+2025-08-24T21:14:39.7787137+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_filter-sort_filter-sort_ts-packages_fuzzy-filter_fuzzy-filter_ts-packages_hydro-anal-0ce001-bb82c164901e.js responded 200 in 103.8748 ms
+
+2025-08-24T21:14:39.7825968+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_notifications_notification-shelf-watcher-element_ts-09ae3dc700e4.js responded 200 in 109.2935 ms
+
+2025-08-24T21:14:39.7859609+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_search_custom-scopes-element_ts-bf114e60345d.js responded 200 in 112.2585 ms
+
+2025-08-24T21:14:39.7861437+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_primer_experimental_toggle-switch-element_ts-ab4e93928442.js responded 200 in 112.5092 ms
+
+2025-08-24T21:14:39.7862875+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_combobox-nav_dist_index_js-node_modules_github_jtml_lib_index_js-b233de43858f.js responded 200 in 112.0578 ms
+
+2025-08-24T21:14:39.7898882+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hydro-analytics-c-1c4dd4-62a305d7bc30.js responded 200 in 115.5288 ms
+
+2025-08-24T21:14:39.7944458+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_primer_experimental_select-panel-element_ts-31622d385990.js responded 200 in 120.7972 ms
+
+2025-08-24T21:14:39.7954003+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_query-builder-element_query-builder-element_ts-90f5f83e2407.js responded 200 in 121.02 ms
+
+2025-08-24T21:14:39.8299629+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_search_qbsearch-input-element_ts-bb9dd89a2f3a.js responded 200 in 155.1274 ms
+
+2025-08-24T21:14:39.8922924+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-app_components_site_header_notification-indicator-element_ts-5d3b312c86c0.js responded 200 in 217.3211 ms
+
+2025-08-24T21:14:39.8959260+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_cookie-consent-link-element_element-entry_ts-packages_promise-with-resolvers-polyfil-ca0d1b-bfd0a774028c.js responded 200 in 218.0461 ms
+
+2025-08-24T21:14:39.8983532+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_react-partial-anchor-element_element-entry_ts-b53ddb47c42d.js responded 200 in 218.7445 ms
+
+2025-08-24T21:14:39.9039433+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_hydro-analytics_hydro-analytics_ts-packages_query-builder-element_element-entry_ts-95b78ef12de4.js responded 200 in 225.8534 ms
+
+2025-08-24T21:14:39.9063938+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_hydro-analytics-c-b1612f-0d2cb8546fcc.js responded 200 in 228.4607 ms
+
+2025-08-24T21:14:39.9064987+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_github_jtml_lib_ind-951e88-037650cae46b.js responded 200 in 230.5077 ms
+
+2025-08-24T21:14:39.9065863+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_context-region-element_element-entry_ts-b44feee3fac6.js responded 200 in 230.3559 ms
+
+2025-08-24T21:14:39.9088527+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_ghcc-consent-element_element-entry_ts-packages_promise-with-resolvers-polyfill_promi-6824cd-d605acfadc04.js responded 200 in 230.9862 ms
+
+2025-08-24T21:14:39.9121902+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_cookie-consent_cookie-consent_ts-8771031ae173.js responded 200 in 235.8206 ms
+
+2025-08-24T21:14:39.9124177+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_webauthn-get-element_element-entry_ts-5ad877843728.js responded 200 in 232.5222 ms
+
+2025-08-24T21:14:39.9130920+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_site-header-logged-in-user-menu-element_element-entry_ts-7236ab21b01a.js responded 200 in 233.2183 ms
+
+2025-08-24T21:14:39.9558253+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_hydro-analytics_hydro-analytics_ts-p-9eb617-be362a30fe49.js responded 200 in 275.7546 ms
+
+2025-08-24T21:14:40.0003908+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-keyboard-shortcuts-dialog.2de9c7d6456a311fce49.module.css responded 200 in 320.327 ms
+
+2025-08-24T21:14:40.0115986+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/socket-worker-7db934acff24.js responded 200 in 219.0602 ms
+
+2025-08-24T21:14:40.0168521+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_ui-commands_ui-commands_ts-d40077cb1466.js responded 200 in 336.8048 ms
+
+2025-08-24T21:14:40.0334953+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-chat-8befb80346bf.js responded 200 in 110.8691 ms
+
+2025-08-24T21:14:40.0354034+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-user-nav-drawer.d4f749af87a00c38a832.module.css responded 200 in 112.6154 ms
+
+2025-08-24T21:14:40.0371402+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_ModelPicker_tsx-5cd223bdd24a.js responded 200 in 115.3215 ms
+
+2025-08-24T21:14:40.0461892+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_date-fns_addWeeks_mjs-node_modules_date-fns_addYears_mjs-node_modules_da-827f4f-6af178f555c7.js responded 200 in 102.8301 ms
+
+2025-08-24T21:14:40.0463499+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_date-fns_getDaysInMonth_mjs-node_modules_date-fns_isAfter_mjs-node_modul-49f526-00fbebc8e440.js responded 200 in 102.6478 ms
+
+2025-08-24T21:14:40.0534218+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_date-fns_format_mjs-f7e5dd4e3ebd.js responded 200 in 110.0098 ms
+
+2025-08-24T21:14:40.0594945+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_tanstack_react-virtual_dist_esm_index_js-4f7c027617ef.js responded 200 in 114.9759 ms
+
+2025-08-24T21:14:40.0950228+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_dnd-kit_modifiers_dist_modifiers_esm_js-node_modules_dnd-kit_sortable_di-72228e-99b95b9fca56.js responded 200 in 151.0007 ms
+
+2025-08-24T21:14:40.0951040+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_CopilotIconAnimation_tsx-4f0dd006fa0a.js responded 200 in 172.4855 ms
+
+2025-08-24T21:14:40.1016238+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-create-menu.091342d12267a9316908.module.css responded 200 in 178.8604 ms
+
+2025-08-24T21:14:40.1104871+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_drag-and-drop_drag-and-drop_ts-packages_hydro-analytics_hydro-analytics_ts-6d373d06faa7.js responded 200 in 165.1821 ms
+
+2025-08-24T21:14:40.1106599+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/site/gitignore/templates responded 200 in 339.6166 ms
+
+2025-08-24T21:14:40.1129396+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_item-picker_components_RepositoryPicker_tsx-37850f5d9bef.js responded 200 in 191.1605 ms
+
+2025-08-24T21:14:40.1130350+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_components_ChatInput_tsx-packages_global-agents-menu_GlobalAgentsMenu_t-f1d2b2.75f96ad9940a3158e939.module.css responded 200 in 191.3032 ms
+
+2025-08-24T21:14:40.1133981+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/global-copilot-menu.0dae964c36d74ed2b53e.module.css responded 200 in 191.6259 ms
+
+2025-08-24T21:14:40.1181866+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_focus-visible_dist_focus-visible_js-node_modules_github_hotkey_dist_inde-336f14-44fbd8c36b37.js responded 200 in 199.0284 ms
+
+2025-08-24T21:14:40.1203618+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_list-view_src_hooks_use-next-header-tag_ts-packages_list-view_src_ListItem_ListItem_-055669-a51bfc2f2d41.js responded 200 in 175.0369 ms
+
+2025-08-24T21:14:40.1206082+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-markdown-rendering-ddd978d4a7c0.css responded 200 in 201.5818 ms
+
+2025-08-24T21:14:40.1211820+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_tanstack_react-query_build_modern_useQuery_js-9bd41cbc4f50.js responded 200 in 202.041 ms
+
+2025-08-24T21:14:40.1282169+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_utils_copilot-chat-helpers_ts-bc96156bbd1d.js responded 200 in 207.2624 ms
+
+2025-08-24T21:14:40.1282169+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_ref-selector_RefSelector_tsx-745d2b3f1f3d.js responded 200 in 182.7352 ms
+
+2025-08-24T21:14:40.1285338+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_emoji-regex_index_js-node_modules_fzy_js_index_js-node_modules_tanstack_-0edaaf-37196164f329.js responded 200 in 207.5641 ms
+
+2025-08-24T21:14:40.1312092+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_decorators_js-node_modules_accname_dist_access-6ea9b0-201e3c77621c.js responded 200 in 211.118 ms
+
+2025-08-24T21:14:40.1320495+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-global-copilot-menu.0dae964c36d74ed2b53e.module.css responded 200 in 186.5867 ms
+
+2025-08-24T21:14:40.1336901+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-markdown_MarkdownRenderer_tsx-8d3f235cdffe.js responded 200 in 212.7274 ms
+
+2025-08-24T21:14:40.1460002+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-global-create-menu.091342d12267a9316908.module.css responded 200 in 199.1748 ms
+
+2025-08-24T21:14:40.1579482+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_promise-with-resolvers-polyfill_prom-32d1c7-967363e07ef9.js responded 200 in 211.7343 ms
+
+2025-08-24T21:14:40.1580096+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-lazy-react-partial-global-create-menu-73c39bd858a3.js responded 200 in 211.105 ms
+
+2025-08-24T21:14:40.1677809+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-global-user-nav-drawer.d4f749af87a00c38a832.module.css responded 200 in 219.9165 ms
+
+2025-08-24T21:14:40.1701138+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_global-copilot-menu_entry_ts-package-04fde0-2f88fba3088e.js responded 200 in 224.6554 ms
+
+2025-08-24T21:14:40.1705109+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/203430151 responded 200 in 389.74 ms
+
+2025-08-24T21:14:40.1788762+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-chat_utils_CopilotChatContext_tsx-packages_safe-html_VerifiedHTML_tsx-770fa39dc57b.js responded 200 in 257.144 ms
+
+2025-08-24T21:14:40.1804596+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_date-picker_components_DatePicker_tsx-5b5fe0292542.js responded 200 in 235.9109 ms
+
+2025-08-24T21:14:40.1805507+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_global-user-nav-drawer_entry_ts-70a0935f1169.js responded 200 in 232.7457 ms
+
+2025-08-24T21:14:40.2185099+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-vendors-node_modules_consent-banner_dist_consent-banner_js-b4d32b5aded2.js responded 200 in 254.2257 ms
+
+2025-08-24T21:14:40.2723860+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_react-relay_index_js-065619a68bd6.js responded 200 in 352.5966 ms
+
+2025-08-24T21:14:40.4768945+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 200 in 571.937 ms
+
+2025-08-24T21:14:40.5271289+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat responded 200 in 604.2496 ms
+
+2025-08-24T21:14:40.6057079+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-rule-state-for-proposed-repository responded 200 in 534.668 ms
+
+2025-08-24T21:14:40.6877059+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 367.6004 ms
+
+2025-08-24T21:14:40.8942808+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 579.6702 ms
+
+2025-08-24T21:14:42.8365254+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 565.4889 ms
+
+2025-08-24T21:14:44.6070902+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 544.7746 ms
+
+2025-08-24T21:14:45.2655072+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 547.915 ms
+
+2025-08-24T21:14:46.3477906+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 498.4338 ms
+
+2025-08-24T21:14:46.9355786+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 524.0632 ms
+
+2025-08-24T21:14:48.5847658+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 521.8948 ms
+
+2025-08-24T21:14:49.6261198+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 557.686 ms
+
+2025-08-24T21:14:50.6078807+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories/check-name responded 200 in 537.7291 ms
+
+2025-08-24T21:14:51.3058588+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 444.6999 ms
+
+2025-08-24T21:14:52.4940176+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 574.4376 ms
+
+2025-08-24T21:14:53.4681938+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 586.3463 ms
+
+2025-08-24T21:14:54.4357524+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/repositories responded 200 in 1550.6131 ms
+
+2025-08-24T21:14:55.8623334+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool responded 200 in 1400.6311 ms
+
+2025-08-24T21:14:55.9944416+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/notifications-subscriptions-menu.44a4ce5e60cfd5c27b1a.module.css responded 200 in 95.807 ms
+
+2025-08-24T21:14:55.9945214+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-coding-agent-status.18a276928d4b7c45824e.module.css responded 200 in 95.9352 ms
+
+2025-08-24T21:14:56.0022197+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_copilot-coding-agent-status_entry_ts-packages_document-metadata_document-metadata_ts-6b3ee4-e9ec40d49799.js responded 200 in 103.2113 ms
+
+2025-08-24T21:14:56.0038475+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/copilot-coding-agent-status-c42e35c471c9.js responded 200 in 104.3563 ms
+
+2025-08-24T21:14:56.0074266+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/code-menu-6292fc60c722.js responded 200 in 108.4485 ms
+
+2025-08-24T21:14:56.0370164+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/codespaces-f2514bee5e7e.js responded 200 in 138.0552 ms
+
+2025-08-24T21:14:56.0375451+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_catalyst_lib_inde-96937f-895e9dc3b4af.js responded 200 in 138.5484 ms
+
+2025-08-24T21:14:56.0379412+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/vendors-node_modules_github_remote-form_dist_index_js-node_modules_delegated-events_dist_inde-970f7d-b530c9cb748a.js responded 200 in 139.1035 ms
+
+2025-08-24T21:14:56.0381633+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_agent-sessions_utils_elapsed-time-util_ts-packages_hydro-analytics_hydro-analytics_t-1b32fd-9e32e5d39b4d.js responded 200 in 138.7517 ms
+
+2025-08-24T21:14:56.0396747+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/code-f427b7926b4d.css responded 200 in 143.1529 ms
+
+2025-08-24T21:14:56.1742749+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://avatars.githubusercontent.com/u/203430151 responded 200 in 90.1498 ms
+
+2025-08-24T21:14:56.1944492+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/repos-overview.58da9f81eac1c528e37e.module.css responded 200 in 109.6372 ms
+
+2025-08-24T21:14:56.2418560+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_document-metadata_document-metadata_ts-packages_notifications-subscriptions-menu_ent-c054c3-a501f1b541dd.js responded 200 in 98.942 ms
+
+2025-08-24T21:14:56.2420457+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-notifications-subscriptions-menu.44a4ce5e60cfd5c27b1a.module.css responded 200 in 99.3022 ms
+
+2025-08-24T21:14:56.2479159+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_document-dropzone-element_element-entry_ts-716776f5c9d9.js responded 200 in 106.518 ms
+
+2025-08-24T21:14:56.2483405+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/lazy-react-partial-repos-overview.58da9f81eac1c528e37e.module.css responded 200 in 106.4947 ms
+
+2025-08-24T21:14:56.2655542+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_commit-attribution_index_ts-packages_commit-checks-status_index_ts-e90ea1e7185f.js responded 200 in 123.9773 ms
+
+2025-08-24T21:14:56.2698535+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_code-view-shared_hooks_use-canonical-object_ts-packages_code-view-shared_hooks_use-f-26b67c-fabf97e854f3.js responded 200 in 127.8397 ms
+
+2025-08-24T21:14:56.2951456+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-lazy-react-partial-repos-overview-1c7264ed4219.js responded 200 in 152.5164 ms
+
+2025-08-24T21:14:56.4465556+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/packages_code-view-shared_components_files-search_FileResultsList_tsx.b303102fd0b37fe5c59d.module.css responded 200 in 120.3278 ms
+
+2025-08-24T21:14:56.4465973+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.githubassets.com/assets/chunk-packages_code-view-shared_components_files-search_FileResultsList_tsx-3e19c0eb8138.js responded 200 in 119.6047 ms
+
+2025-08-24T21:14:56.5664925+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/indicator responded 304 in 413.5236 ms
+
+2025-08-24T21:14:56.5713551+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/hovercards/citation/sidebar_partial responded 204 in 418.3034 ms
+
+2025-08-24T21:14:56.6350215+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/security/overall-count responded 200 in 482.0146 ms
+
+2025-08-24T21:14:56.6350216+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 446.5537 ms
+
+2025-08-24T21:14:56.6866158+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 552.4309 ms
+
+2025-08-24T21:14:56.8365116+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/notifications/1043713477/watch_subscription responded 200 in 653.6885 ms
+
+2025-08-24T21:14:56.8857877+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/github-copilot/chat responded 200 in 711.6861 ms
+
+2025-08-24T21:14:56.9753868+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/latest-commit/main responded 200 in 651.0242 ms
+
+2025-08-24T21:14:56.9760396+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/recently-touched-branches responded 200 in 651.673 ms
+
+2025-08-24T21:14:56.9826350+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/tree-commit-info/main responded 200 in 658.1457 ms
+
+2025-08-24T21:14:56.9867079+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/refs responded 200 in 662.1947 ms
+
+2025-08-24T21:14:57.0348700+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+GET https://github.com/xinyu496/gitconnect_tool/branch-and-tag-count responded 200 in 710.3233 ms
+
+2025-08-24T21:14:59.7345191+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 591.9739 ms
+
+2025-08-24T21:15:00.7552089+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://github.com/users/set_protocol responded 200 in 489.9116 ms
+
+2025-08-24T21:15:00.8545870+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://collector.github.com/github/collect responded 204 in 582.8341 ms
+
+2025-08-24T21:15:02.2746217+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 375.2804 ms
+
+2025-08-24T21:15:02.7573613+08:00 [INF]
+FastGithub.HttpServer.RequestLoggingMiddleware
+POST https://api.github.com/_private/browser/stats responded 200 in 535.5673 ms
+
+2025-08-24T21:15:03.1722927+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+login.microsoftonline.com@119.29.29.29:53->由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+
+2025-08-24T21:15:03.9687236+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.microsoftonline.com:443->[2603:1047:1:168::10, 2603:1047:1:168::1d, 2603:1047:1:168::2d]
+
+2025-08-24T21:15:07.5181387+08:00 [WRN]
+FastGithub.DomainResolve.DnsClient
+collector.github.com@119.29.29.29:53->Unable to read data from the transport connection: 远程主机强迫关闭了一个现有的连接。.
+
+2025-08-24T21:15:08.1846159+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+collector.github.com:443->[140.82.113.21, 140.82.112.21, 140.82.113.22]
+
+2025-08-24T21:15:15.6507845+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->127.0.0.1
+
+2025-08-24T21:15:15.6538820+08:00 [INF]
+FastGithub.PacketIntercept.Dns.DnsInterceptor
+github.com->::1
+
+2025-08-24T21:15:19.6819437+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+xpaywalletcdn-prod.azureedge.net:443->[2620:1ec:bdf::38, 2620:1ec:bdf::73, 2620:1ec:29:1::50]
+
+2025-08-24T21:15:21.7170933+08:00 [INF]
+FastGithub.DomainResolve.DomainResolver
+login.live.com:443->[20.190.144.163, 40.126.16.166, 40.126.35.84]
+
